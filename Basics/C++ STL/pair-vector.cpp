@@ -46,9 +46,18 @@ void vectors(){
    for(auto it:v){
     cout<<it<<" ";
    }
-
+   cout<<endl;
+   
    v.erase(v.begin());
    v.erase(v.begin()+1,v.begin()+2);
+
+   vector<int>vi(2,100);
+   vi.insert(vi.begin(),300);
+
+   vi.insert(vi.begin()+1,2,10);
+   for(auto it:vi){
+    cout<<it<<" ";
+   }
 
 }
 

@@ -1,20 +1,21 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void countDigits(int N){
-    int count=0;
+void reversedigits(int N){
+    int revNum=0;
     while(N>0){
+        int lastdigit=N%10;
         N=N/10;
-        count++;
+        revNum=(revNum*10)+lastdigit;
     }
-    cout<<"The number of digits:"<<count;
+    cout<<"The reverse of digits:"<<revNum;
 }
 
 int main(){
     int N;
     cout<<"Enter N:";
     cin>>N;
-    countDigits(N);
+    reversedigits(N);
 }
 
 //Time complexity=O(log10(N)+1)

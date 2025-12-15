@@ -11,6 +11,16 @@ void Findgcd(int n,int m){
     cout<<"The gcd of m and n is:"<<gcd;
 }
 
+//euclids method
+/*
+while(a>0 &&b>0){
+   if(a>b) a=a%b;
+   else a=b%a;
+}
+if(a==0)print(a)
+else print b;
+*/
+
 int main(){
     int n,m;
     cout<<"Enter the values of n and m:";

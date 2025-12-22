@@ -1,19 +1,20 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void PrintNtimes(int i,int n){
-    if(i>n) 
+void SumofN(int i,int sum){
+    if(i<1){
+      cout<<sum;
       return;
-    PrintNtimes(i+1,n);
-    cout<<i<<endl;
+    }
+    SumofN(i-1,sum+i);
 }
 
 int main(){
     int n;
     cout<<"Enter N:";
     cin>>n;
-    PrintNtimes(1,n);
+    SumofN(n,0);
 }
-//Used Backtracking concepts
+//Parametrized
 //Time complexity :O(n)
 //SPace complexity :O(n)

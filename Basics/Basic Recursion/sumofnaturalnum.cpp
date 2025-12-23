@@ -17,4 +17,3 @@ int main(){
 }
 //functional
 //Time complexity :O(n)
-//SPace complexity :O(n)

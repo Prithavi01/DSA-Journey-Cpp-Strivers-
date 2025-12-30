@@ -16,5 +16,5 @@ int main(){
     Reverse(0,n,arr);
     for(int j=0;j<n;j++) cout<<arr[j]<<" ";
 }
-//Functional
+
 //Time complexity :O(n)

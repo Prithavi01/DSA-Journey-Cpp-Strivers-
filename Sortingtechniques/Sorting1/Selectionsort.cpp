@@ -25,3 +25,5 @@ int main(){
     cout<<"Sorted array:";
     for(int i=0;i<=n-1;i++) cout<<arr[i]<<" ";
 }
+
+/*Time complexity=O(n^2)*/

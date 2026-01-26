@@ -29,4 +29,5 @@ int main(){
     for(int i=0;i<=n-1;i++) cout<<arr[i]<<" ";
 }
 
-/*Time complexity=O(n^2)*/
+/*Time complexity=O(n^2)
+ best case=O(n)*/
